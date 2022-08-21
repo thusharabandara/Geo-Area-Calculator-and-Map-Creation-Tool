@@ -1,10 +1,10 @@
-#Title# 
+Title
 Land Area Calculator and Map Creation Tool
 
-##Motivation Fact:##
+Motivation Fact:
 There wasn’t a proper tool link with GIS platform to calculate the Area. If it was, it will be useful and productive for single users. (Single User; Surveyors, Students, Undergraduates and the Researchers)
 
-##The objective of the creating Tool…## 
+##The objective of the creating Tool…
 •	To create the area Map with calculate perimeter for GIS users. 
 •	This tool will be implement the advantages for advanced GIS analysis. 
 
