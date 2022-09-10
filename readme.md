@@ -26,6 +26,7 @@ There wasn’t a proper tool link with GIS platform to calculate the Area. If it
   4.	Calculate the Area of Defined Polygon/ Land 
   5.	Linked the Area with GIS shape file. 
   6.	Display the Map output on GIS Platform
+## Installation Method 
 
 
 
