@@ -31,3 +31,8 @@ There wasn’t a proper tool link with GIS platform to calculate the Area. If it
 
 
 
+## How to usage
+* Click multiple times around the map to define an area
+* The calculated area will then be displayes below the map
+
+
