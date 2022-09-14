@@ -6,6 +6,7 @@ There wasn’t a proper tool link with GIS platform to calculate the Area. If it
 ## The objective of the creating Tool
 *	To create the area Map with calculate perimeter for GIS users. 
 *	This tool will be implement the advantages for advanced GIS analysis. 
+*	This tool will help to surveyors for calculate the land measurements. 
 
 ## Tool will be solve the Problem of...
 *	Calculate the Shoelace Algorithm with any polygon using the coordinates (point file).
