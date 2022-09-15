@@ -1,7 +1,7 @@
 # Land Area Calculator and Map Creation Tool
 
 ## Motivation Fact
-The land sustains every aspect of our lives, providing fundamental life-support systems and the foundation of our economy and society.Calculating land area is one of the most important data collection and analysis tasks in modern world.There wasn’t a proper tool link with GIS platform to calculate the Area. If it was, it will be useful and productive for single users. (Single User; Surveyors, Students, Undergraduates and the Researchers)
+The land sustains every aspect of our lives, providing fundamental life-support systems and the foundation of our economy and society. Calculating land area is one of the most important data collection and analysis tasks in modern world.There wasn’t a proper tool link with GIS platform to calculate the Area. If it was, it will be useful and productive for single users. (Single User; Surveyors, Students, Undergraduates and the Researchers)
 
 ## The objective of the creating Tool
 *	To create the area Map with calculate perimeter for GIS users. 
