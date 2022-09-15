@@ -19,6 +19,7 @@ The land sustains every aspect of our lives, providing fundamental life-support 
     - To calculate the Shoelace Algorithm, need “Arrays, For Loop”
     -	To link calculation with Coordinates and Display need to learn about the Libraries. 
     - To convert the X & Y coordinates to the point shape file (GIS platform). 
+* Create the User segment with PyQt 5 process and Gui Interfac
 
 ## Table of Content
   1.	Define the Polygon
@@ -28,7 +29,8 @@ The land sustains every aspect of our lives, providing fundamental life-support 
   5.	Linked the Area with GIS shape file. 
   6.	Display the Map output on GIS Platform
 ## Installation Method 
-
+*   Create Gui Interface to develop the Installaition Process
+*   Create *exe file with the PyQt 5 
 
 
 
