@@ -1,0 +1,133 @@
+# import relevant libraries
+from tkinter import *
+
+# Create WIndow
+window = Tk()
+window.title("Geo Area Calculator")
+
+
+#create user-defined functions
+
+def displayText():
+    label3.configure(text="Coordinate Was Submitted", command=displayText)
+
+def displayDetails():
+    print(selected.get())
+
+    
+# Declare Variable
+selected = IntVar()
+
+#labels
+label1 = Label(window, text="Enter Number of points:")
+label1.place(x=25, y=10)
+
+txt1 = Entry(window, width=10)
+txt1.place(x=155,y=10)
+txt1.focus()
+
+label2 = Label(window, text="Enter Coordinates:")
+label2.place(x=25, y=60)
+
+txt2 = Entry(window, width=25)
+txt2.place(x=125,y=60)
+txt2.focus()
+
+label3 = Label(window,text="After enter coordinate click submit",font=("Arial Bold", 10), fg='black', bg='cyan')
+label3.place(x=120, y=110)
+
+label4 = Label(window,text="Please select coordinates Units",font=("Arial Bold", 10), fg='black', bg='cyan')
+label4.place(x=20, y=155)
+
+label5 = Label(window,text="After Select coordinates Units click submit",font=("Arial Bold", 10), fg='black', bg='cyan')
+label5.place(x=120, y=250)
+
+label6 = Label(window, text="Area:")
+label6.place(x=25, y=340)
+
+label7 = Label(window,text="Squre Meters",font=("Arial Bold", 10), fg='black', bg='cyan')
+label7.place(x=60, y=315)
+
+label8 = Label(window,text="Hectares",font=("Arial Bold", 10), fg='black', bg='cyan')
+label8.place(x=160, y=315)
+
+label9 = Label(window,text="Acres",font=("Arial Bold", 10), fg='black', bg='cyan')
+label9.place(x=260, y=315)
+
+label9 = Label(window,text="Perches",font=("Arial Bold", 10), fg='black', bg='cyan')
+label9.place(x=360, y=315)
+
+txt6 = Entry(window, width=15)
+txt6.place(x=60,y=340)
+txt6.focus()
+
+txt7 = Entry(window, width=15)
+txt7.place(x=160,y=340)
+txt7.focus()
+
+txt8 = Entry(window, width=15)
+txt8.place(x=260,y=340)
+txt8.focus()
+
+txt9 = Entry(window, width=15)
+txt9.place(x=360,y=340)
+txt9.focus()
+
+label10 = Label(window,text="Click Here to Get Map Plot",font=("Arial Bold", 10), fg='black', bg='cyan')
+label10.place(x=20, y=400)
+
+label11 = Label(window,text="Click Here to Get Shape File",font=("Arial Bold", 10), fg='black', bg='cyan')
+label11.place(x=20, y=470)
+
+label12 = Label(window,text="Click Here to Get KML File",font=("Arial Bold", 10), fg='black', bg='cyan')
+label12.place(x=20, y=540)
+
+
+
+#display massage
+
+label1_msg = Label(window)
+label1_msg.place(x=20, y=10)
+
+label2_msg = Label(window)
+label2_msg.place(x=20, y=60)
+
+label6_msg = Label(window)
+label6_msg.place(x=20, y=340)
+
+# Create Buttons
+
+# Regular button
+but1= Button(window, text="SUBMIT")
+but1.place(x=115, y=82)
+
+but2= Button(window, text="SUBMIT")
+but2.place(x=115, y=220)
+
+but3= Button(window, text="Map Plot")
+but3.place(x=20, y=420)
+
+but4= Button(window, text="Shape File")
+but4.place(x=20, y=490)
+
+but5= Button(window, text="KML File")
+but5.place(x=20, y=560)
+
+
+
+# radiobutton
+
+radio_but1 = Radiobutton(window, text='Meters',value=1, variable=selected)
+radio_but1.place(x=40, y=180)
+
+radio_but2 = Radiobutton(window, text='Kilometers',value=2, variable=selected)
+radio_but2.place(x=140, y=180)
+
+radio_but3 = Radiobutton(window, text='Other',value=3, variable=selected)
+radio_but3.place(x=260, y=180)
+
+
+window.geometry("600x700")
+window.configure(background='cyan')
+window.mainloop()
+
