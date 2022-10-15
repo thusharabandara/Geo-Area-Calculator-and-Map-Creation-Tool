@@ -1,0 +1,7 @@
+sir, 
+Could you pay your attention for following issues please?
+
+1.Unable to adjust the places of entry boxes in GUI.
+2.Are there any possibility to name the each entry boxes (as coordinate 1, coordinate 2…)? ( Entry boxes are generated using grid)
+3.Unable to scroll the entry boxes, when the number of points are in higher value. (we are trying to search it )
+4.Unable to find the way to remove the ‘entry boxes grid’ when resetting 
