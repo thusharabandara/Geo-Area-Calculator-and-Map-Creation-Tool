@@ -1,12 +1,20 @@
 # Land Area Calculator and Map Creation Tool
+This tool was developed through the Python language for the creation of the calculation process. 
+The calculator develops through the Arrays and Libraries on python for the data display.
+The shoelace formula was used as the basic theoretical background of the land area calculation process in this tool. 
+This project theoretical background was python software background with using its libraries. Numpy, Osgeo, Tinker, GDAL, Mapplot, Matplotlib, Gmplot, Tkinter and Geopanda were used as the libraries. This tool is user friendly to calculate the area using multiple points of the polygon. It also has the ability to convert the units of an area based on user requirements. As an advantage, this tool can show the hitherto unknown shape of the land. 
+
 
 ## Motivation Fact
 The land sustains every aspect of our lives, providing fundamental life-support systems and the foundation of our economy and society. Calculating land area is one of the most important data collection and analysis tasks in modern world. There wasn’t a proper tool link with GIS platform to calculate the Area. If it was, it will be useful and productive for single users. (Single User;Surveyors, Students, Undergraduates,  Farmers, Engineers and the Researchers)
 
 ## The objective of the creating Tool
-*	To create the area Map with calculate perimeter for GIS users. 
-*	This tool will be implement the advantages for advanced GIS analysis. 
-*	This tool will help to surveyors for calculate the land measurements. 
+* To calculate an unknown land area  of any land on the Earth plane surface
+* To identify the hitherto unknown shape of a land  
+* To create the  Area Map of any unknown lands 
+* To help for advanced GIS analysis with the future development of this tool
+* This tool will help to any operator calculate the land area
+ 
 
 ## Tool will be solve the Problem of...
 *	Calculate the Shoelace Algorithm with any polygon using the coordinates (point file).
